@@ -1,0 +1,7 @@
+transformers==4.57.0
+torchvision==0.23.0
+supervision==0.26.1
+accelerate==1.10.1
+Pillow==11.3.0
+gradio==5.49.1
+torch==2.8.0
