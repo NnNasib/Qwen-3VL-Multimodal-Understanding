@@ -5,9 +5,6 @@ Powered by Hugging Face Transformers, PyTorch, and Gradio, this demo showcases t
 
 <img width="1918" height="1223" alt="Screenshot 2025-11-18 at 17-20-08 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/14e0b157-3dec-410e-8fc6-4161210ab1e9" />
 <img width="1918" height="1127" alt="Screenshot 2025-11-18 at 17-04-03 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/076a518a-25a0-4e8a-bc0b-746a34a6b936" />
-<img width="1918" height="1206" alt="Screenshot 2025-11-18 at 18-04-14 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/bf0d08d4-b819-4b23-823d-77f7c83decd1" />
-<img width="1918" height="1233" alt="Screenshot 2025-11-18 at 17-29-34 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/d8a663ea-1be9-486f-8fb6-84cc228c577a" />
-<img width="1916" height="1230" alt="Screenshot 2025-11-18 at 17-24-33 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/cb216bb6-0be6-40b3-b9d7-67377bc24d0d" />
 
 ## Features
 
